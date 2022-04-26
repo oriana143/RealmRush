@@ -7,9 +7,28 @@ public class EnemyMover : MonoBehaviour
     [SerializeField] List<WayPoint> path = new List<WayPoint>();
     [SerializeField] [Range (0f, 5f)]float speed = 1f;
     
-    void Start()
+    void OnEnable()
     {
+        FindPath();
+        ReturnToStart();
         StartCoroutine (FollowPath());
+    }
+
+    void FindPath()
+    {
+        path.Clear();
+
+        GameObject[] waypoints = GameObject.FindGameObjectsWithTag("Path");
+
+        foreach(GameObject waypoint in waypoints)
+        {
+            path.Add(waypoint.GetComponent<WayPoint>());
+        }
+    }
+
+    void ReturnToStart()
+    {
+        transform.position = path[0].transform.position;
     }
 
     IEnumerator FollowPath()
@@ -28,9 +47,8 @@ public class EnemyMover : MonoBehaviour
                 transform.position = Vector3.Lerp (startPosition, endPosition, travelPercent);
                 yield return new WaitForEndOfFrame();
             }
-
-
-            
         }
+
+        gameObject.SetActive(false);
     }
 }
