@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3168427187116608326, guid: a32bc05c2eae40742b9ff1035783fa8b, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3168427187116608327, guid: a32bc05c2eae40742b9ff1035783fa8b, type: 3}
       propertyPath: m_RootOrder

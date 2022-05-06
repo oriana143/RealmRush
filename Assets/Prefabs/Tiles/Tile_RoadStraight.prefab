@@ -81,7 +81,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219989288761926307, guid: 601d375afeb80b2429bc91403b116104, type: 3}
       propertyPath: m_TagString
-      value: Path
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4799688775477249257, guid: 601d375afeb80b2429bc91403b116104, type: 3}
       propertyPath: m_Mesh
