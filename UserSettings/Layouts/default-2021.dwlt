@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scrips/Environment
+    - Assets/Scrips
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scrips/Environment
+  - Assets/Scrips
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\orian\Documents\GitHub\RealmRush
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c530000
-    m_LastClickedID: 21260
-    m_ExpandedIDs: 00000000d6520000d8520000f252000000ca9a3bffffff7f
+    m_SelectedIDs: 02530000
+    m_LastClickedID: 21250
+    m_ExpandedIDs: 00000000d6520000d8520000fc5200000253000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000624e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 223
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: be4e0000
-      m_LastClickedID: 20158
-      m_ExpandedIDs: 3afbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d444fdff2445fdffca60fdff18ecffff3afbffff604b0000f04c0000444d00007c4d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 27.841738, y: -165.07213, z: 67.836464}
+    m_Target: {x: 169.76852, y: -156.31627, z: 214.18109}
     speed: 2
-    m_Value: {x: 27.841738, y: -165.07213, z: 67.836464}
+    m_Value: {x: 169.76852, y: -156.31627, z: 214.18109}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.5746301, y: -0.016929546, z: 0.011892679, w: 0.8181374}
+    m_Target: {x: 0.40753466, y: 0.045455344, z: -0.020313835, w: 0.9118223}
     speed: 2
-    m_Value: {x: 0.5746368, y: -0.016929744, z: 0.011892818, w: 0.81814694}
+    m_Value: {x: 0.40753806, y: 0.045455724, z: -0.020314004, w: 0.91182995}
   m_Size:
-    m_Target: 163.20131
+    m_Target: 203.26099
     speed: 2
-    m_Value: 163.20131
+    m_Value: 203.26099
   m_Ortho:
     m_Target: 0
     speed: 2
